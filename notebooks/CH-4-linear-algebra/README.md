@@ -105,6 +105,7 @@ def make_matrix(num_rows, num_cols, entry_fn):
     return [[entry_fn(i, j) for j in range(num_cols)] for i in range(num_rows)]
 ```
 
+**Todos os exemplos construídos podem ser feitos usando NumPy (http://www.numpy.org).**
 
 ## Referências
 - [Vetor (matemática)](https://pt.wikipedia.org/wiki/Vetor_(matem%C3%A1tica))
@@ -113,3 +114,4 @@ def make_matrix(num_rows, num_cols, entry_fn):
 - [List Comprehension](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)
 - [math](https://docs.python.org/3/library/math.html)
 - [Produto escalar](https://pt.wikipedia.org/wiki/Produto_escalar)
+- [NumPy](http://www.numpy.org)
